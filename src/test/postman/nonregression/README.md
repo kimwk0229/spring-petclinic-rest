@@ -38,9 +38,9 @@ chmod +x postman-tests.sh
 ```
 2. Without Permission to the script file:
 ```sh
-zsh postman-tests.sh
+bash postman-tests.sh
 ```
-> Note: You can use your currently bash installed. Like: "bash postman-tests.sh"
+> Note: You can use your currently zsh installed. Like: "zsh postman-tests.sh"
 
 This script will:
 

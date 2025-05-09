@@ -297,7 +297,7 @@ mvn compile jib:build -X -DjibSerialize=true -Djib.to.auth.username=xxx -Djib.to
 
 To benchmark the scalability of the PetClinic REST API, a JMeter test plan is available.
 
-- See the [JMeter Performance Test](src/test/jmeter/README.md) for details.
+- See the [JMeter Performance Test](src/test/jmeter/bechmark/README.md) for details.
 - Run the test using:
   ```sh
   jmeter -n -t src/test/jmeter/petclinic-jmeter-crud-benchmark.jmx \
@@ -308,7 +308,7 @@ To benchmark the scalability of the PetClinic REST API, a JMeter test plan is av
 
 This project contains **non-regression tests** for the Petclinic API, built with **Postman** and executed via **Newman**, with automated **HTML reports** for easy analysis.
 
-- See the [Postman + Newman Test](src/test/postman/README.md) for details.
+- See the [Postman + Newman Test](src/test/postman/nonregression/README.md) for details.
 - You can run the tests with 2 ways:
   I. Giving Execution Permission to the script file:
     ```sh
